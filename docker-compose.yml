@@ -12,5 +12,5 @@ services:
       - ./backups:/backups
       - /home/paolo:/source:ro
     ports:
-      - 8200:8200
+      - 127.0.0.1:8200:8200
     restart: unless-stopped
