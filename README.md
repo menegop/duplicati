@@ -6,3 +6,5 @@ As recommanded, the web GUI is accessible only from localhost.
 So use port forwarding as follow to access it
 
 `ssh -L 8200:localhost:8200 paolo@REMOTE_HOST_ADRESS`
+
+check https://www.backblaze.com/docs/cloud-storage-integrate-duplicati-with-backblaze-b2 to create a backup
