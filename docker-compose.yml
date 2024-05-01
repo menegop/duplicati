@@ -10,7 +10,7 @@ services:
     volumes:
       - ./config:/config
       - ./backups:/backups
-      - ./source:/source
+      - /home/paolo:/source:ro
     ports:
       - 8200:8200
     restart: unless-stopped
